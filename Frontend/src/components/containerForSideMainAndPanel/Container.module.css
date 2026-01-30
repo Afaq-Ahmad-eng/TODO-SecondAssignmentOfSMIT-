@@ -1,0 +1,10 @@
+.layout {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100vh;
+}
+
+.span4 {
+  grid-column: span 4;
+   border: 1px solid rgb(231, 186, 186);
+}
